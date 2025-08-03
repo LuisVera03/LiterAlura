@@ -1,0 +1,23 @@
+# Configuración de finales de línea
+* text=auto
+
+# Archivos específicos que deben mantener LF
+/mvnw text eol=lf
+*.sh text eol=lf
+
+# Archivos específicos que deben usar CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Archivos de código fuente - normalizar a LF
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Archivos binarios
+*.jar binary
+*.war binary
+*.class binary
